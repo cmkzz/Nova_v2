@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+venv/
+env/
+
+# Models / AI weights (VERY IMPORTANT for your project)
+*.bin
+*.pt
+*.onnx
+*.gguf
+
+# Audio / temp files
+*.wav
+*.mp3
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite (optional: only ignore if you don't want to push memory DB)
+# nova_memory.db
